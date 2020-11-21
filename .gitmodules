@@ -1,0 +1,3 @@
+[submodule ".config/yabai/chunkwm-yabai-config"]
+	path = .config/yabai/chunkwm-yabai-config
+	url = https://github.com/Julian-Heng/chunkwm-yabai-config.git
