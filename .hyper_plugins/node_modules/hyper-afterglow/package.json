@@ -1,0 +1,23 @@
+{
+  "name": "hyper-afterglow",
+  "version": "1.0.0",
+  "description": "The theme for Hyper based on Afterglow Theme for Sublime Text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "afterglow"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andooown/hyper-afterglow.git"
+  },
+  "author": "andooown <andooown.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.15.3"
+  }
+}
