@@ -1,0 +1,4 @@
+#!/bin/bash
+TIMESTAMP=`date +"%Y-%m-%d-%H-%M-%S"`
+
+grim -g "$(slurp)" /home/sourtaste000/Desktop/$TIMESTAMP.png
