@@ -60,6 +60,9 @@ super + c
 ~button1
     berryc pointer_focus
 
+alt + shift + n
+    feh --bg-fill --randomize ~/anime\:pfp\:wallpaper
+
 # Misc Function Keys
 
 XF86MonBrightnessDown

@@ -2,15 +2,15 @@
 
 
 # Set decoration geometry
-berryc border_width       5
+berryc border_width       3
 berryc inner_border_width 3
-berryc title_height       5
-berryc top_gap            50
+berryc title_height       3
+berryc top_gap            30
 
 # Set decoration colors
-berryc focus_color         292D3E
+berryc focus_color         7D6167
 berryc unfocus_color       292D3E
-berryc inner_focus_color   FFCB6B
+berryc inner_focus_color   7D6167
 berryc inner_unfocus_color 565679
 berryc text_focus_color    ffffff
 berryc text_unfocus_color  eeeeee
@@ -22,4 +22,7 @@ berryc edge_lock   "true"
 berryc set_font    "Overpass"
 
 # Wallpaper
-feh --bg-scale ~/background.png
+feh --bg-fill --randomize ~/anime\:pfp\:wallpaper
+
+# tint2
+exec tint2 &

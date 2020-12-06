@@ -1,9 +1,8 @@
 configuration {
  modi: "window,drun,ssh,combi";
- theme: "slate";
- font: "Terminus 13";
  combi-modi: "window,drun,ssh";
+ theme: "frost";
  show-icons: true;
  icon-theme: "Papirus";
 }
-@import "/usr/share/rofi/themes/slate.rasi"
+@import "/usr/share/rofi/themes/frost.rasi"
