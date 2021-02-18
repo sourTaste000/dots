@@ -1,3 +1,0 @@
-#!/bin/bash
-
-pactl list sinks | grep -q Mute:.no && pactl set-sink-mute 0 1 && notify-send 'Muted!' && exit|| pactl set-sink-mute 0 0 && notify-send 'Unmuted!'

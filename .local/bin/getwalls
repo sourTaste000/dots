@@ -1,3 +1,0 @@
-#!/bin/sh
-
-rsync -azP sourtaste000@192.168.0.226:~/anime\:pfp\:wallpaper/ ~/anime\:pfp\:wallpaper
