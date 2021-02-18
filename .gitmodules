@@ -1,3 +1,0 @@
-[submodule "linux/.config/rofi"]
-	path = linux/.config/rofi
-	url = https://github.com/undiabler/nord-rofi-theme.git
