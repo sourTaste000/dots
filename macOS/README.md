@@ -1,6 +1,6 @@
 # macOS dotfiles
 
-- Bar: [Uebersicht](https://github.com/felixhageloh/uebersicht) with [Pecan](https://github.com/zzzeyez/pecan)
+- Bar: [Uebersicht](https://github.com/felixhageloh/uebersicht) with [Pecan](https://github.com/zzzeyez/pecan) and [xanthia](https://github.com/zzzeyez/xanthia/).
 - Window Manager: [yabai](https://github.com/felixhageloh/uebersicht)
 - Shell Prompt: [starship](https://github.com/starship/starship)
 - Terminal: [alacritty](https://github.com/alacritty/alacritty)
