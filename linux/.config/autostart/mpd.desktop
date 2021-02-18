@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=mpd
+Comment=music
+Exec=mpd
+Type=Application
