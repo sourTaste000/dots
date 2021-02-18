@@ -1,5 +1,12 @@
-dotfiles
+# my dotfiles for both macOS and linux
 
-TODO:
-- [ ] Add screenshot
-- [ ] Fix color theme for linux berry wm(nord)
+### macOS
+![macos screenshot](./macos.png)
+
+___
+
+
+
+### Linux
+
+![linux screenshot](./linux.png)
