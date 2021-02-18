@@ -1,0 +1,5 @@
+#!/bin/bash
+# screenshot utility for X
+TIMESTAMP=`date +"%Y-%m-%d-%H-%M-%S"`
+
+maim -s "$HOME/Desktop/$TIMESTAMP.png"

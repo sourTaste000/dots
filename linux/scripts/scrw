@@ -1,0 +1,5 @@
+#!/bin/bash
+# screenshot utility for wayland
+TIMESTAMP=`date +"%Y-%m-%d-%H-%M-%S"`
+
+grim -g "$(slurp)" "$HOME/Desktop/$TIMESTAMP.png"
