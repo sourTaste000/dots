@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=dunst
+Comment=notification
+Exec=dunst
+Type=Application

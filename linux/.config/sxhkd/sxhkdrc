@@ -1,69 +1,5 @@
-#
-# wm independent hotkeys
-#
-
-# terminal emulator
-super + Return
-	kitty
-
-# program launcher
-super + d
-	rofi -show drun	
-
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
-
-#
-# berry hotkeys
-#
-
-super + shift + q
-    berryc quit
-
-super + {h, j, k, l}
-    berryc window_move {-50 0, 0 50, 0 -50, 50 0}
-
-super + shift +  {h, j, k, l}
-    berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
-
-super + {1-9}
-    berryc switch_workspace {0-9}
-
-super + shift + {1-9}
-    berryc send_to_workspace {0-9}
-
-super + m
-    berryc window_monocle
-
-super + f
-    berryc fullscreen
-
-super +  p
-    berryc snap_right
-
-super + o 
-    berryc snap_left
-
-super + n
-    berryc toggle_decorations
-
-super + Tab
-    berryc cycle_focus
-
-super + q
-    berryc window_close
-
-super + c
-    berryc window_center
-
-~button1
-    berryc pointer_focus
-
 alt + shift + n
-    feh --bg-fill --randomize ~/anime\:pfp\:wallpaper
-
-# Misc Function Keys
+    feh --bg-fill --randomize /home/sourtaste000/leftwm/themes/nord/nord-wallpapers/
 
 XF86MonBrightnessDown
     xbacklight -dec 10
@@ -72,10 +8,13 @@ XF86MonBrightnessUp
     xbacklight -inc 10
 
 XF86AudioLowerVolume
-    amixer set Master 5%-
+    pactl -- set-sink-volume 0 -5%
 
 XF86AudioRaiseVolume
-    amixer set Master 5%+
+    pactl -- set-sink-volume 0 +5%
 
 XF86AudioMute
-    amixer set Master toggle
+    pactl list sinks | grep -q Mute:.no && pactl set-sink-mute 0 1 && notify-send 'PulseAudio:' 'Muted!' && exit || pactl set-sink-mute 0 0 && notify-send 'PulseAudio:' 'Unmuted!'
+
+Print
+    maim "/home/sourtaste000/Desktop/$(date +\"%Y-%m-%d-%H-%M-%S\").png"; notify-send -i "/usr/share/icons/Arc/devices/48/camera-photo.png" "Cheese!" "Screenshot saved at $HOME/Desktop!"
