@@ -9,4 +9,4 @@
 - Hotkey Deamon: [skhd](https://github.com/koekeishiya/skhd)
 ___
 
-**Note!** Please install [mpc](https://github.com/MusicPlayerDaemon/mpc/) if you want to use the notification script!
+**Note!** Please install [mpc](https://github.com/MusicPlayerDaemon/mpc/) if you want to use the notification script for mpd!
