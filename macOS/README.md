@@ -7,3 +7,6 @@
 - Music Deamon: [mpd](https://github.com/MusicPlayerDaemon/MPD)
 - Music Player: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 - Hotkey Deamon: [skhd](https://github.com/koekeishiya/skhd)
+___
+
+**Note!** Please install [mpc](https://github.com/MusicPlayerDaemon/mpc/) if you want to use the notification script!
